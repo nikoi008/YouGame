@@ -719,9 +719,10 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector:Micro_SD_Card"
+		(symbol "Connector_Generic:Conn_01x06"
 			(pin_names
 				(offset 1.016)
+				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -729,7 +730,7 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "J"
-				(at -16.51 15.24 0)
+				(at 0 7.62 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -738,29 +739,17 @@
 					)
 				)
 			)
-			(property "Value" "Micro_SD_Card"
-				(at 16.51 15.24 0)
+			(property "Value" "Conn_01x06"
+				(at 0 -10.16 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify right)
 				)
 			)
 			(property "Footprint" ""
-				(at 29.21 7.62 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://www.we-online.com/components/products/datasheet/693072010801.pdf"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -771,7 +760,7 @@
 					)
 				)
 			)
-			(property "Description" "Micro SD Card Socket"
+			(property "Datasheet" ""
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -782,7 +771,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "connector SD microsd"
+			(property "Description" "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -793,7 +782,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "microSD*"
+			(property "ki_keywords" "connector"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -804,12 +793,21 @@
 					)
 				)
 			)
-			(symbol "Micro_SD_Card_0_1"
-				(polyline
-					(pts
-						(xy -8.89 -11.43) (xy -8.89 8.89) (xy -1.27 8.89) (xy 2.54 12.7) (xy 3.81 12.7) (xy 3.81 11.43)
-						(xy 6.35 11.43) (xy 7.62 12.7) (xy 20.32 12.7) (xy 20.32 -11.43) (xy -8.89 -11.43)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
 					)
+				)
+			)
+			(symbol "Conn_01x06_1_1"
+				(rectangle
+					(start -1.27 6.35)
+					(end 1.27 -8.89)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -819,111 +817,75 @@
 					)
 				)
 				(rectangle
-					(start -7.62 8.255)
-					(end -5.08 6.985)
+					(start -1.27 5.207)
+					(end 0 4.953)
 					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start -7.62 5.715)
-					(end -5.08 4.445)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start -7.62 3.175)
-					(end -5.08 1.905)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start -7.62 0.635)
-					(end -5.08 -0.635)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start -7.62 -1.905)
-					(end -5.08 -3.175)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start -7.62 -4.445)
-					(end -5.08 -5.715)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start -7.62 -6.985)
-					(end -5.08 -8.255)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start -7.62 -9.525)
-					(end -5.08 -10.795)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 16.51 12.7) (xy 16.51 13.97) (xy -19.05 13.97) (xy -19.05 -16.51) (xy 16.51 -16.51) (xy 16.51 -11.43)
-					)
-					(stroke
-						(width 0.254)
+						(width 0.1524)
 						(type default)
 					)
 					(fill
 						(type none)
 					)
 				)
-			)
-			(symbol "Micro_SD_Card_1_1"
-				(pin bidirectional line
-					(at -22.86 7.62 0)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -7.493)
+					(end 0 -7.747)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 5.08 0)
 					(length 3.81)
-					(name "DAT2"
+					(name "Pin_1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -938,10 +900,10 @@
 						)
 					)
 				)
-				(pin bidirectional line
-					(at -22.86 5.08 0)
+				(pin passive line
+					(at -5.08 2.54 0)
 					(length 3.81)
-					(name "DAT3/CD"
+					(name "Pin_2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -956,10 +918,10 @@
 						)
 					)
 				)
-				(pin input line
-					(at -22.86 2.54 0)
+				(pin passive line
+					(at -5.08 0 0)
 					(length 3.81)
-					(name "CMD"
+					(name "Pin_3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -974,10 +936,10 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at -22.86 0 0)
+				(pin passive line
+					(at -5.08 -2.54 0)
 					(length 3.81)
-					(name "VDD"
+					(name "Pin_4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -992,10 +954,10 @@
 						)
 					)
 				)
-				(pin input line
-					(at -22.86 -2.54 0)
+				(pin passive line
+					(at -5.08 -5.08 0)
 					(length 3.81)
-					(name "CLK"
+					(name "Pin_5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1010,10 +972,10 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at -22.86 -5.08 0)
+				(pin passive line
+					(at -5.08 -7.62 0)
 					(length 3.81)
-					(name "VSS"
+					(name "Pin_6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1021,60 +983,6 @@
 						)
 					)
 					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -22.86 -7.62 0)
-					(length 3.81)
-					(name "DAT0"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -22.86 -10.16 0)
-					(length 3.81)
-					(name "DAT1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 20.32 -15.24 180)
-					(length 3.81)
-					(name "SHIELD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "SH"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1929,146 +1837,6 @@
 						)
 					)
 					(number "26"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Device:R"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "R"
-				(at 2.032 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "R"
-				(at 0 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at -1.778 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Resistor"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "R res resistor"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "R_0_1"
-				(rectangle
-					(start -1.016 -2.54)
-					(end 1.016 2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3547,6 +3315,16 @@
 		)
 		(uuid "1196ffc8-5585-4cd7-8bc4-e8abf5bc5c86")
 	)
+	(label "GPIO 23"
+		(at 129.54 168.91 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1c60d15b-1149-426b-8dfd-1c4560ff4347")
+	)
 	(label "BA2"
 		(at 208.28 41.91 0)
 		(effects
@@ -3627,15 +3405,15 @@
 		)
 		(uuid "3b414ecc-8b7b-4e90-ab59-e3c95c579e89")
 	)
-	(label "GPIO 18"
-		(at 123.19 160.02 180)
+	(label "GPIO 14"
+		(at 129.54 171.45 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "3ba1dcaa-0dc0-4b55-8691-2f2ad93cd482")
+		(uuid "475df4a3-9df7-4acc-bbc7-3a7cae0876e3")
 	)
 	(label "GPIO 32"
 		(at 182.88 36.83 180)
@@ -3757,6 +3535,16 @@
 		)
 		(uuid "8eaabc44-888e-404f-a9b7-9d451eba32b3")
 	)
+	(label "GPIO 18"
+		(at 129.54 166.37 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8f075f4b-35c4-4571-9f7c-00ae1ec9e1b0")
+	)
 	(label "BB0"
 		(at 208.28 59.69 0)
 		(effects
@@ -3797,6 +3585,16 @@
 		)
 		(uuid "a0a93bbd-e341-4c9f-a518-46bea0463b8a")
 	)
+	(label "GPIO 19"
+		(at 129.54 163.83 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a1b78512-364e-44ae-a53e-7ed26fae75b7")
+	)
 	(label "GPIO 4"
 		(at 67.31 179.07 270)
 		(effects
@@ -3806,16 +3604,6 @@
 			(justify right bottom)
 		)
 		(uuid "a35c4391-480f-445f-bd34-f803ddabfb44")
-	)
-	(label "GPIO 19"
-		(at 123.19 165.1 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "ab0c15c0-5900-49ad-a03d-6b7b9950429d")
 	)
 	(label "BA1"
 		(at 208.28 39.37 0)
@@ -3897,16 +3685,6 @@
 		)
 		(uuid "d35aa3a1-5661-4c3b-b2b4-fa245a6b648a")
 	)
-	(label "GPIO 23"
-		(at 123.19 154.94 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "d4f224d7-8a6c-4519-9df5-e29efa5610b0")
-	)
 	(label "BB3"
 		(at 163.83 66.04 180)
 		(effects
@@ -3926,16 +3704,6 @@
 			(justify right bottom)
 		)
 		(uuid "e0302d91-bab1-4af0-8ca4-d05697913425")
-	)
-	(label "GPIO 14"
-		(at 123.19 152.4 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "e03d8773-90c7-4a77-963b-f17f7eb50de4")
 	)
 	(label "GPIO 14"
 		(at 99.06 64.77 270)
@@ -4077,7 +3845,7 @@
 			(uuid "681f45ba-e84b-4d0d-b9ee-2b65756fa0ee")
 		)
 		(instances
-			(project "BACKUP"
+			(project "handheld"
 				(path "/84631c2d-334e-46c4-a6ae-158a33fbb4d7"
 					(reference "#PWR010")
 					(unit 1)
@@ -4155,7 +3923,7 @@
 			(uuid "f3383097-6bee-4ec7-895a-d22d2ea28853")
 		)
 		(instances
-			(project "BACKUP"
+			(project "handheld"
 				(path "/84631c2d-334e-46c4-a6ae-158a33fbb4d7"
 					(reference "#PWR018")
 					(unit 1)
@@ -4233,7 +4001,7 @@
 			(uuid "2571c3eb-2e63-4c9a-a10e-174490bdf7a9")
 		)
 		(instances
-			(project "BACKUP"
+			(project "handheld"
 				(path "/84631c2d-334e-46c4-a6ae-158a33fbb4d7"
 					(reference "#PWR06")
 					(unit 1)
@@ -4313,7 +4081,7 @@
 			(uuid "b7d67c71-7f24-4396-b026-b49ddfcdd0af")
 		)
 		(instances
-			(project "BACKUP"
+			(project "handheld"
 				(path "/84631c2d-334e-46c4-a6ae-158a33fbb4d7"
 					(reference "SW10")
 					(unit 1)
@@ -4391,7 +4159,7 @@
 			(uuid "9b32a1b9-392c-4dd1-873a-74af1f1f32de")
 		)
 		(instances
-			(project "BACKUP"
+			(project "handheld"
 				(path "/84631c2d-334e-46c4-a6ae-158a33fbb4d7"
 					(reference "#PWR022")
 					(unit 1)
@@ -4469,7 +4237,7 @@
 			(uuid "f00b8ad5-2b00-4687-a0dc-be3ddb0f1554")
 		)
 		(instances
-			(project "BACKUP"
+			(project "handheld"
 				(path "/84631c2d-334e-46c4-a6ae-158a33fbb4d7"
 					(reference "#PWR026")
 					(unit 1)
@@ -4547,7 +4315,7 @@
 			(uuid "10eb3dae-b3df-4d8b-b64f-084ae4fc6a46")
 		)
 		(instances
-			(project "BACKUP"
+			(project "handheld"
 				(path "/84631c2d-334e-46c4-a6ae-158a33fbb4d7"
 					(reference "#PWR029")
 					(unit 1)
@@ -4625,7 +4393,7 @@
 			(uuid "4ef86170-e699-47d6-8f1b-1aab4369d7ca")
 		)
 		(instances
-			(project "BACKUP"
+			(project "handheld"
 				(path "/84631c2d-334e-46c4-a6ae-158a33fbb4d7"
 					(reference "#PWR016")
 					(unit 1)
@@ -4705,7 +4473,7 @@
 			(uuid "84320459-7505-46fb-ba11-8a68a77777f1")
 		)
 		(instances
-			(project "BACKUP"
+			(project "handheld"
 				(path "/84631c2d-334e-46c4-a6ae-158a33fbb4d7"
 					(reference "SW6")
 					(unit 1)
@@ -4867,7 +4635,7 @@
 			(uuid "8e5b801d-53f7-4134-9580-b5cae46246ea")
 		)
 		(instances
-			(project "BACKUP"
+			(project "handheld"
 				(path "/84631c2d-334e-46c4-a6ae-158a33fbb4d7"
 					(reference "U1")
 					(unit 1)
@@ -4986,7 +4754,7 @@
 			(uuid "b3225006-ecdf-40d4-b045-7384b21a6580")
 		)
 		(instances
-			(project "BACKUP"
+			(project "handheld"
 				(path "/84631c2d-334e-46c4-a6ae-158a33fbb4d7"
 					(reference "J1")
 					(unit 1)
@@ -5066,7 +4834,7 @@
 			(uuid "084afbd3-7186-4cae-9517-600de1207f06")
 		)
 		(instances
-			(project "BACKUP"
+			(project "handheld"
 				(path "/84631c2d-334e-46c4-a6ae-158a33fbb4d7"
 					(reference "SW12")
 					(unit 1)
@@ -5075,8 +4843,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 123.19 162.56 270)
+		(lib_id "power:+3V3")
+		(at 129.54 173.99 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5085,9 +4853,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "4515db2c-b9ab-475e-ace0-d3786fd221b3")
-		(property "Reference" "#PWR027"
-			(at 116.84 162.56 0)
+		(uuid "4647c07d-039b-4d2d-b44b-148ed6420be8")
+		(property "Reference" "#PWR037"
+			(at 133.35 173.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5097,19 +4865,19 @@
 				)
 			)
 		)
-		(property "Value" "GND"
-			(at 119.38 162.5599 90)
+		(property "Value" "+3V3"
+			(at 125.73 173.9899 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 123.19 162.56 0)
+			(at 129.54 173.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5120,7 +4888,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 123.19 162.56 0)
+			(at 129.54 173.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5130,8 +4898,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 123.19 162.56 0)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 129.54 173.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5142,12 +4910,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "cea7f83b-0b67-4b13-81c5-097732db631d")
+			(uuid "e85bda1d-691c-4763-ad01-69696507755a")
 		)
 		(instances
-			(project "BACKUP"
+			(project "handheld"
 				(path "/84631c2d-334e-46c4-a6ae-158a33fbb4d7"
-					(reference "#PWR027")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -5223,9 +4991,103 @@
 			(uuid "c1856c9c-2105-4012-89ca-a30185d38831")
 		)
 		(instances
-			(project "BACKUP"
+			(project "handheld"
 				(path "/84631c2d-334e-46c4-a6ae-158a33fbb4d7"
 					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x06")
+		(at 134.62 166.37 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "53992168-b363-485a-a5c1-da9074f89d62")
+		(property "Reference" "J4"
+			(at 137.16 166.3699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x06"
+			(at 137.16 168.9099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical"
+			(at 134.62 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 134.62 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 134.62 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "844baa28-16ac-471b-9410-0f369617cade")
+		)
+		(pin "3"
+			(uuid "d137078c-7dad-4ba2-b5cc-79d4bd13ae54")
+		)
+		(pin "5"
+			(uuid "6f99d681-39c4-4ae5-9b27-7b059a0a835b")
+		)
+		(pin "4"
+			(uuid "eb45db33-dfd3-48fd-be32-458390edb3d9")
+		)
+		(pin "6"
+			(uuid "6970ae2f-d221-49d5-840a-822e11c02f5c")
+		)
+		(pin "1"
+			(uuid "2d2c9fcf-a725-4e99-9f56-aebc3de95681")
+		)
+		(instances
+			(project "handheld"
+				(path "/84631c2d-334e-46c4-a6ae-158a33fbb4d7"
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -5300,7 +5162,7 @@
 			(uuid "014f7023-0a44-4178-a14c-9ce4cc5efd1c")
 		)
 		(instances
-			(project "BACKUP"
+			(project "handheld"
 				(path "/84631c2d-334e-46c4-a6ae-158a33fbb4d7"
 					(reference "#PWR034")
 					(unit 1)
@@ -5378,7 +5240,7 @@
 			(uuid "5fae12f6-1caa-444a-82fc-3dca2c4ffcdd")
 		)
 		(instances
-			(project "BACKUP"
+			(project "handheld"
 				(path "/84631c2d-334e-46c4-a6ae-158a33fbb4d7"
 					(reference "#PWR08")
 					(unit 1)
@@ -5458,7 +5320,7 @@
 			(uuid "39a4964b-1c02-41d4-b1d8-d81709f5f080")
 		)
 		(instances
-			(project "BACKUP"
+			(project "handheld"
 				(path "/84631c2d-334e-46c4-a6ae-158a33fbb4d7"
 					(reference "SW7")
 					(unit 1)
@@ -5538,7 +5400,7 @@
 			(uuid "1c399dd8-6d6f-48b5-8d3b-950df3289673")
 		)
 		(instances
-			(project "BACKUP"
+			(project "handheld"
 				(path "/84631c2d-334e-46c4-a6ae-158a33fbb4d7"
 					(reference "SW8")
 					(unit 1)
@@ -5547,8 +5409,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 123.19 175.26 180)
+		(lib_id "power:GND")
+		(at 129.54 161.29 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5557,9 +5419,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "678b5a00-07ba-4074-a7dd-7d3eb01c1d4a")
-		(property "Reference" "#PWR031"
-			(at 123.19 171.45 0)
+		(uuid "68551350-9ea5-4c9d-8327-fee01a23bf59")
+		(property "Reference" "#PWR036"
+			(at 123.19 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5569,18 +5431,19 @@
 				)
 			)
 		)
-		(property "Value" "+3V3"
-			(at 123.19 180.34 0)
+		(property "Value" "GND"
+			(at 125.73 161.2899 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 123.19 175.26 0)
+			(at 129.54 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5591,7 +5454,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 123.19 175.26 0)
+			(at 129.54 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5601,8 +5464,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 123.19 175.26 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 129.54 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5613,12 +5476,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "f094deba-f78b-4e6d-907c-beff103e372c")
+			(uuid "add81711-d1d3-4d45-a168-01b522dc7474")
 		)
 		(instances
-			(project "BACKUP"
+			(project "handheld"
 				(path "/84631c2d-334e-46c4-a6ae-158a33fbb4d7"
-					(reference "#PWR031")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -5694,7 +5557,7 @@
 			(uuid "76dfa71c-636f-4b68-a99c-351d66482028")
 		)
 		(instances
-			(project "BACKUP"
+			(project "handheld"
 				(path "/84631c2d-334e-46c4-a6ae-158a33fbb4d7"
 					(reference "#PWR013")
 					(unit 1)
@@ -5772,7 +5635,7 @@
 			(uuid "5ce39399-3c6f-46c8-8251-61cc18a795b6")
 		)
 		(instances
-			(project "BACKUP"
+			(project "handheld"
 				(path "/84631c2d-334e-46c4-a6ae-158a33fbb4d7"
 					(reference "#PWR024")
 					(unit 1)
@@ -5850,7 +5713,7 @@
 			(uuid "e4aa2edc-b30a-4e4a-a0d4-59a6593819eb")
 		)
 		(instances
-			(project "BACKUP"
+			(project "handheld"
 				(path "/84631c2d-334e-46c4-a6ae-158a33fbb4d7"
 					(reference "#PWR019")
 					(unit 1)
@@ -5928,7 +5791,7 @@
 			(uuid "f0efb030-8a6e-4f80-8c3a-62de7e3128d4")
 		)
 		(instances
-			(project "BACKUP"
+			(project "handheld"
 				(path "/84631c2d-334e-46c4-a6ae-158a33fbb4d7"
 					(reference "#PWR020")
 					(unit 1)
@@ -6006,7 +5869,7 @@
 			(uuid "094a30a9-05da-416f-be63-6c4f2b16ad4a")
 		)
 		(instances
-			(project "BACKUP"
+			(project "handheld"
 				(path "/84631c2d-334e-46c4-a6ae-158a33fbb4d7"
 					(reference "#PWR04")
 					(unit 1)
@@ -6084,7 +5947,7 @@
 			(uuid "1eefda12-8ac6-4175-a160-cade0e7895db")
 		)
 		(instances
-			(project "BACKUP"
+			(project "handheld"
 				(path "/84631c2d-334e-46c4-a6ae-158a33fbb4d7"
 					(reference "#PWR023")
 					(unit 1)
@@ -6164,7 +6027,7 @@
 			(uuid "2a434128-1feb-4fb2-9e47-119bc9acbac7")
 		)
 		(instances
-			(project "BACKUP"
+			(project "handheld"
 				(path "/84631c2d-334e-46c4-a6ae-158a33fbb4d7"
 					(reference "SW9")
 					(unit 1)
@@ -6242,7 +6105,7 @@
 			(uuid "687a4e26-81a9-46c6-b185-d03d0f0ddfa3")
 		)
 		(instances
-			(project "BACKUP"
+			(project "handheld"
 				(path "/84631c2d-334e-46c4-a6ae-158a33fbb4d7"
 					(reference "#PWR030")
 					(unit 1)
@@ -6320,88 +6183,9 @@
 			(uuid "cc95b93b-89de-406a-b8e8-616f2f9c9def")
 		)
 		(instances
-			(project "BACKUP"
+			(project "handheld"
 				(path "/84631c2d-334e-46c4-a6ae-158a33fbb4d7"
 					(reference "#PWR01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 166.37 172.72 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ae897f5d-c57e-4a7e-8adb-a6590c5ee4fb")
-		(property "Reference" "#PWR028"
-			(at 172.72 172.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 170.18 172.7199 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 166.37 172.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 166.37 172.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 166.37 172.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "1ed55747-4fe8-4c7b-9bbf-977c72f664f5")
-		)
-		(instances
-			(project "BACKUP"
-				(path "/84631c2d-334e-46c4-a6ae-158a33fbb4d7"
-					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -6478,90 +6262,9 @@
 			(uuid "b62e21b9-d476-422f-86e6-d83b108234ad")
 		)
 		(instances
-			(project "BACKUP"
+			(project "handheld"
 				(path "/84631c2d-334e-46c4-a6ae-158a33fbb4d7"
 					(reference "SW3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 123.19 146.05 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "b167f824-8fa9-4192-9cd1-d81c66d34e85")
-		(property "Reference" "R1"
-			(at 117.856 144.526 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "10K"
-			(at 117.856 147.066 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 124.968 146.05 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 123.19 146.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 123.19 146.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c4bb72c6-7265-46b4-adac-ad9ec7fc4bc0")
-		)
-		(pin "2"
-			(uuid "cfad4946-4ca6-401a-a3a4-e678674fb074")
-		)
-		(instances
-			(project "BACKUP"
-				(path "/84631c2d-334e-46c4-a6ae-158a33fbb4d7"
-					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -6637,7 +6340,7 @@
 			(uuid "3566d59b-25c0-4c9c-a718-1b1d4abee5ea")
 		)
 		(instances
-			(project "BACKUP"
+			(project "handheld"
 				(path "/84631c2d-334e-46c4-a6ae-158a33fbb4d7"
 					(reference "#PWR014")
 					(unit 1)
@@ -6715,7 +6418,7 @@
 			(uuid "0a89966e-d873-417c-9375-cdcc9a64f105")
 		)
 		(instances
-			(project "BACKUP"
+			(project "handheld"
 				(path "/84631c2d-334e-46c4-a6ae-158a33fbb4d7"
 					(reference "#PWR011")
 					(unit 1)
@@ -6793,7 +6496,7 @@
 			(uuid "3e5f0795-efcf-426c-982c-93add137ad35")
 		)
 		(instances
-			(project "BACKUP"
+			(project "handheld"
 				(path "/84631c2d-334e-46c4-a6ae-158a33fbb4d7"
 					(reference "#PWR033")
 					(unit 1)
@@ -6871,7 +6574,7 @@
 			(uuid "0d5cf502-52ea-4f1b-91a3-50d41feeb2b8")
 		)
 		(instances
-			(project "BACKUP"
+			(project "handheld"
 				(path "/84631c2d-334e-46c4-a6ae-158a33fbb4d7"
 					(reference "#PWR05")
 					(unit 1)
@@ -6949,7 +6652,7 @@
 			(uuid "a87b61de-dc9b-4751-b23a-ae5db461c477")
 		)
 		(instances
-			(project "BACKUP"
+			(project "handheld"
 				(path "/84631c2d-334e-46c4-a6ae-158a33fbb4d7"
 					(reference "#PWR021")
 					(unit 1)
@@ -7027,7 +6730,7 @@
 			(uuid "536bcdea-47d1-40e2-b4ef-7c9a8314b639")
 		)
 		(instances
-			(project "BACKUP"
+			(project "handheld"
 				(path "/84631c2d-334e-46c4-a6ae-158a33fbb4d7"
 					(reference "#PWR07")
 					(unit 1)
@@ -7105,7 +6808,7 @@
 			(uuid "12fe67fa-b8ca-4a14-ba71-1d9c22c0af14")
 		)
 		(instances
-			(project "BACKUP"
+			(project "handheld"
 				(path "/84631c2d-334e-46c4-a6ae-158a33fbb4d7"
 					(reference "#PWR025")
 					(unit 1)
@@ -7259,7 +6962,7 @@
 			(uuid "40296af0-3a38-41c3-ab80-f130fffc2ec5")
 		)
 		(instances
-			(project "BACKUP"
+			(project "handheld"
 				(path "/84631c2d-334e-46c4-a6ae-158a33fbb4d7"
 					(reference "J3")
 					(unit 1)
@@ -7337,164 +7040,9 @@
 			(uuid "148a056a-3bf8-4605-81e0-c7c4bebd4534")
 		)
 		(instances
-			(project "BACKUP"
+			(project "handheld"
 				(path "/84631c2d-334e-46c4-a6ae-158a33fbb4d7"
 					(reference "#PWR03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 123.19 142.24 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cf858cce-d1e8-4c0d-a680-3a3a4338b29f")
-		(property "Reference" "#PWR032"
-			(at 123.19 146.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 123.19 137.16 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 123.19 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 123.19 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 123.19 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "0c34f04b-8b63-4baa-af19-08c47cd201e2")
-		)
-		(instances
-			(project "BACKUP"
-				(path "/84631c2d-334e-46c4-a6ae-158a33fbb4d7"
-					(reference "#PWR032")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 123.19 157.48 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "d323f024-f3a4-44ac-82de-2dcdda8733ab")
-		(property "Reference" "#PWR035"
-			(at 127 157.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 118.11 157.226 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 123.19 157.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 123.19 157.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 123.19 157.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "162478e2-98ae-437d-ba2c-c58e0db8371b")
-		)
-		(instances
-			(project "BACKUP"
-				(path "/84631c2d-334e-46c4-a6ae-158a33fbb4d7"
-					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -7611,7 +7159,7 @@
 			(uuid "98c7ed5c-c3a9-4fc7-ab87-f4767ccfedaf")
 		)
 		(instances
-			(project "BACKUP"
+			(project "handheld"
 				(path "/84631c2d-334e-46c4-a6ae-158a33fbb4d7"
 					(reference "J2")
 					(unit 1)
@@ -7691,90 +7239,9 @@
 			(uuid "8b117323-03ea-43ba-a5bf-f7d4779be0d1")
 		)
 		(instances
-			(project "BACKUP"
+			(project "handheld"
 				(path "/84631c2d-334e-46c4-a6ae-158a33fbb4d7"
 					(reference "SW5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 123.19 171.45 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "e0dd1376-0fd8-47f7-a540-22eebde49a8f")
-		(property "Reference" "R2"
-			(at 119.634 170.434 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "10K"
-			(at 119.634 172.974 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 124.968 171.45 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 123.19 171.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 123.19 171.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "7d89beb6-7804-44dc-8176-4e7ee47e0468")
-		)
-		(pin "1"
-			(uuid "bf4b2c47-5df3-4baf-9db9-444f04373d84")
-		)
-		(instances
-			(project "BACKUP"
-				(path "/84631c2d-334e-46c4-a6ae-158a33fbb4d7"
-					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -7852,7 +7319,7 @@
 			(uuid "3266f365-7b78-4b0d-b265-1d372e674716")
 		)
 		(instances
-			(project "BACKUP"
+			(project "handheld"
 				(path "/84631c2d-334e-46c4-a6ae-158a33fbb4d7"
 					(reference "SW1")
 					(unit 1)
@@ -7930,7 +7397,7 @@
 			(uuid "9aa39c61-5d3d-4221-b1ab-7eec2e2cb127")
 		)
 		(instances
-			(project "BACKUP"
+			(project "handheld"
 				(path "/84631c2d-334e-46c4-a6ae-158a33fbb4d7"
 					(reference "#PWR017")
 					(unit 1)
@@ -8008,7 +7475,7 @@
 			(uuid "e84bf94a-c663-45af-b5dc-071da0325709")
 		)
 		(instances
-			(project "BACKUP"
+			(project "handheld"
 				(path "/84631c2d-334e-46c4-a6ae-158a33fbb4d7"
 					(reference "#PWR012")
 					(unit 1)
@@ -8088,7 +7555,7 @@
 			(uuid "a0b716d5-919e-4490-b38c-60cda80fad83")
 		)
 		(instances
-			(project "BACKUP"
+			(project "handheld"
 				(path "/84631c2d-334e-46c4-a6ae-158a33fbb4d7"
 					(reference "SW2")
 					(unit 1)
@@ -8166,7 +7633,7 @@
 			(uuid "664a0623-8c70-4db8-895d-daa8a914379d")
 		)
 		(instances
-			(project "BACKUP"
+			(project "handheld"
 				(path "/84631c2d-334e-46c4-a6ae-158a33fbb4d7"
 					(reference "#PWR02")
 					(unit 1)
@@ -8246,7 +7713,7 @@
 			(uuid "e4e4ff29-ae50-4216-a6da-0aeb6391013d")
 		)
 		(instances
-			(project "BACKUP"
+			(project "handheld"
 				(path "/84631c2d-334e-46c4-a6ae-158a33fbb4d7"
 					(reference "SW11")
 					(unit 1)
@@ -8326,110 +7793,9 @@
 			(uuid "52c68d98-d7fb-43e5-acd9-85391725d1eb")
 		)
 		(instances
-			(project "BACKUP"
+			(project "handheld"
 				(path "/84631c2d-334e-46c4-a6ae-158a33fbb4d7"
 					(reference "SW4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Micro_SD_Card")
-		(at 146.05 157.48 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fa7a115b-932a-485d-93ec-c68bb846a091")
-		(property "Reference" "J6"
-			(at 146.685 138.43 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Micro_SD_Card"
-			(at 146.685 140.97 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_Card:microSD_HC_Wuerth_693072010801"
-			(at 175.26 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/693072010801.pdf"
-			(at 146.05 157.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Micro SD Card Socket"
-			(at 146.05 157.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "0b8d2cbf-353e-4f2f-93f1-ee42a90cd6b1")
-		)
-		(pin "5"
-			(uuid "01693557-e734-4ded-aa35-5ae25efcda5a")
-		)
-		(pin "4"
-			(uuid "629b8fbb-19c5-43fb-b03e-9fb673a02f55")
-		)
-		(pin "6"
-			(uuid "2f94092b-b2f0-456d-8a9c-6be88018b210")
-		)
-		(pin "7"
-			(uuid "9120d32d-2e51-45b4-b0b0-c91fcea174b4")
-		)
-		(pin "3"
-			(uuid "d596210e-e4d4-4f0c-a9d3-a335c37155d6")
-		)
-		(pin "SH"
-			(uuid "140d06ad-6dd5-445a-afd0-86f29d51b2c0")
-		)
-		(pin "1"
-			(uuid "70ef0603-d81f-4425-b1f7-e5bb6423469e")
-		)
-		(pin "8"
-			(uuid "77d0fde4-0f7f-4ef9-8082-62dafff3bab0")
-		)
-		(instances
-			(project "BACKUP"
-				(path "/84631c2d-334e-46c4-a6ae-158a33fbb4d7"
-					(reference "J6")
 					(unit 1)
 				)
 			)
