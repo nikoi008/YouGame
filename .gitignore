@@ -1,3 +1,5 @@
 /e-backups
 .history/
 *.lck
+/handheld-backups
+*.svg

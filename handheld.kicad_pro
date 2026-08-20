@@ -472,7 +472,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "e.kicad_pro",
+    "filename": "handheld.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -627,12 +627,12 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "e.kicad_sch",
-        "name": "Root",
+        "filename": "handheld.kicad_sch",
+        "name": "handheld",
         "uuid": "84631c2d-334e-46c4-a6ae-158a33fbb4d7"
       }
     ],
-    "used_designators": "R1-2,J1-7,SW1-12,U1",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
