@@ -1,7 +1,7 @@
 # 1 Got the raspberry pi screen to work on the esp32! - 2hrs
 > 19th April 15:18 
 
-![alt text](image.png)
+![alt text](journal_imgs/image.png)
 ![alt text](journal_imgs/j1_1.jpeg)
 I first isolated all the pins that were needed to actually power on the lcd as well as looked at the docs (https://www.lcdwiki.com/2.4inch_RPi_Display_For_RPi_3A%2B)
 
