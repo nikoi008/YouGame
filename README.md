@@ -8,10 +8,10 @@ YouGame is a handheld device designed for making games using the tft adruino lib
 ![alt text](journal_imgs/j6_3.png)
 
 ## Features
-12 Buttons -- 10 normal push buttons and 2 shoulder trigger style buttons
-320x240 LCD screen 
-SD card slot to store the games on an sd card
-ESP32 S3 as the brains
+12 Buttons -- 10 normal push buttons and 2 shoulder trigger style buttons  
+320x240 LCD screen  
+SD card slot to store the games on an sd card  
+ESP32 S3 as the brains  
 
 
 ## BOM
