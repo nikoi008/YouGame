@@ -508,7 +508,7 @@
     "last_paths": {
       "idf": "",
       "netlist": "",
-      "plot": "../New folder/",
+      "plot": "",
       "specctra_dsn": "e.dsn",
       "vrml": ""
     },
