@@ -20,7 +20,7 @@ ESP32 S3 as the brains
 | Item | Qty | Price (USD) | Link |
 |---|---|---|---|
 | 2.4" Touch Screen SPI TFT LCD | 1 | $10.24 | [Link](https://www.aliexpress.com/item/1005005770033042.html) |
-| 1x40 Breakable Pin Header 2.54mm Male (10pcs) | 1 | $2.05 | [Link](https://www.aliexpress.com/item/1005009798909934.html) |
+| 1x40 Breakable Pin Header 2.54mm Male (10pcs) | 1 | $2.05 | [Link](https://a.aliexpress.com/_EJZPzXy) |
 | Momentary Tactile Push Button 6x6x5 Right Angle (20pcs) | 1 | $1.74 | [Link](https://www.aliexpress.com/item/1005006384754591.html) |
 | 12x12mm Panel Tactile Switch, H6.5mm (10pcs) — shoulder buttons | 1 | $1.60 | [Link](https://www.aliexpress.com/item/1005006164609617.html) |
 | TF Micro SD Card Module (SPI) | 1 | $0.90 | [Link](https://www.aliexpress.com/item/1005005302035188.html) |
