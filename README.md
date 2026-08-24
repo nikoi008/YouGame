@@ -25,6 +25,6 @@ ESP32 S3 as the brains
 | TF Micro SD Card Module (SPI) | 1 | $0.90 | [Link](https://www.aliexpress.com/item/1005005302035188.html) |
 | Female Pin Header Socket Gold Plated 15-Pin (10pcs) | 1 | $3.70 | [Link](https://www.aliexpress.com/item/1005003610333849.html) |
 | ESP32 WiFi Bluetooth Dev Board Type-C CH340 | 1 | $5.59 | [Link](https://www.aliexpress.com/item/1005008771142129.html) |
-| PCB fabrication | 1 | $9.03 | jlcbcp.com  |
+| PCB fabrication | 1 | $11.45 | jlcbcp.com  |
 
-**Total:** $36.68
+**Total:** $39.1
