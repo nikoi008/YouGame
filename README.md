@@ -40,6 +40,6 @@ Headers and buttons are all through hole components so it shouldn't be too chall
 | Female Pin Header Socket Gold Plated 15-Pin (10pcs) | 1 | $3.70 | [Link](https://www.aliexpress.com/item/1005003610333849.html) |
 | ESP32 WiFi Bluetooth Dev Board Type-C CH340 | 1 | $5.59 | [Link](https://www.aliexpress.com/item/1005008771142129.html) |
 | PCB fabrication | 1 | $11.45 | jlcbcp.com  |
-| MCP2017-SS expansion baord | 1 | 1.84 | [jlcbcp.com  ](https://www.aliexpress.com/item/1005010450787157.html?mp=1) |
+| MCP2017-SS expansion baord | 1 | 1.84 | https://www.aliexpress.com/item/1005010450787157.html?mp=1 |
 
 **Total:** $39.1
