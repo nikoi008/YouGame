@@ -77,3 +77,13 @@ This was fun but really annoying since the spacing was really tight, but I feel 
 ![alt text](journal_imgs/front.png)
 
 **Total time spent: 4 hours**
+
+
+# September 10: made the case
+
+Yes, I finally did it! Its bad but this is the most of my cad skills. the thing im proud of most is that it is literally 1 piece so there is no need for assembly!  
+Btw when I say this took ages, I MEAN it. the sheer amount of unclosed wire errors I got were ridiculous. Eventually I figured out how they were caused by, but now it REALLY is time to submit
+
+![alt text](journal_imgs/CASE.png)
+
+**Total time spent: 3 hours**
