@@ -524,9 +524,9 @@
     "last_paths": {
       "idf": "",
       "netlist": "",
-      "plot": "jlcpbdada/",
+      "plot": "manufacturing/",
       "specctra_dsn": "e.dsn",
-      "step": "",
+      "step": "../handqwhrb34quiheld.glb",
       "vrml": ""
     },
     "page_layout_descr_file": ""
@@ -649,7 +649,7 @@
         "uuid": "84631c2d-334e-46c4-a6ae-158a33fbb4d7"
       }
     ],
-    "used_designators": "",
+    "used_designators": "U1,U3",
     "variants": []
   },
   "sheets": [
